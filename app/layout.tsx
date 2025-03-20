@@ -1,9 +1,12 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Raleway } from "next/font/google"
 import "./globals.css"
 
-const inter = Inter({ subsets: ["latin"] })
+const raleway = Raleway({
+    subsets: ["latin"],
+    weight: "400"
+})
 
 export const metadata: Metadata = {
   title: "Malawi Shades | Discover the Warm Heart of Africa",
@@ -17,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
       <html lang="en">
-      <body className={`${inter.className} flex min-h-screen flex-col`}>{children}</body>
+      <body className={`${raleway.className} flex min-h-screen flex-col`}>{children}</body>
       </html>
   )
 }
