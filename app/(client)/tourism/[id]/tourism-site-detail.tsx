@@ -230,4 +230,3 @@ export function TourismSiteDetail({ tourismSite }: TourismSiteDetailProps) {
         </div>
     )
 }
-

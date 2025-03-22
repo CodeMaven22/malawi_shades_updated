@@ -16,7 +16,7 @@ export default function AccommodationsClientPage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4">
       <PageHeader
         title="Accommodations"
         description="Find your perfect stay in Malawi, from luxury villas to cozy lodges."

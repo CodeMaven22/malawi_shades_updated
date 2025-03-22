@@ -85,12 +85,9 @@ export function AdminSidebar() {
     ]
 
     return (
-        <div
-            className={cn(
-                "bg-white border-r border-gray-200 flex flex-col transition-all duration-300",
-                collapsed ? "w-16" : "w-64",
-            )}
-        >
+        <div className={cn("bg-white border-r border-gray-200 flex flex-col transition-all duration-300",
+            collapsed ? "w-16" : "w-64",
+            )}>
             <div className="p-4 border-b border-gray-200 flex items-center justify-between">
                 {!collapsed && (
                     <div className="flex items-center">

@@ -50,13 +50,13 @@ export function AdvertiseSection() {
 
   return (
     <section id="advertise" className="py-8">
-      <div className="text-center max-w-3xl mx-auto mb-12">
-        <h2 className="text-3xl font-bold tracking-tight mb-4">Advertise With Us</h2>
-        <p className="text-muted-foreground">
-          Reach thousands of potential customers looking for accommodations and tourism experiences in Malawi. Choose
-          the advertising package that best suits your business needs.
-        </p>
-      </div>
+      {/*<div className="text-center max-w-3xl mx-auto mb-12">*/}
+      {/*  <h2 className="text-3xl font-bold tracking-tight mb-4">Advertise With Us</h2>*/}
+      {/*  <p className="text-muted-foreground">*/}
+      {/*    Reach thousands of potential customers looking for accommodations and tourism experiences in Malawi. Choose*/}
+      {/*    the advertising package that best suits your business needs.*/}
+      {/*  </p>*/}
+      {/*</div>*/}
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {advertisingPackages.map((pkg) => (

@@ -194,4 +194,3 @@ export default function TourismSitePage({ params }: { params: { id: string } }) 
 
     return <TourismSiteDetail tourismSite={tourismSite} />
 }
-

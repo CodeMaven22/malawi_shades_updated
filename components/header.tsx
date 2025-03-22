@@ -23,7 +23,7 @@ export function Header() {
                         </SheetTrigger>
                         <SheetContent side="left" className="w-[300px] sm:w-[400px] border-r-4 border-malawi-green">
                             <nav className="flex flex-col gap-6 mt-8">
-                                <Link href="/" className="text-lg font-semibold hover:text-malawi-green transition-colors">
+                                <Link href="/home" className="text-lg font-semibold hover:text-malawi-green transition-colors">
                                     Home
                                 </Link>
                                 <Link href="/accommodations" className="text-lg font-medium hover:text-malawi-green transition-colors">
@@ -47,7 +47,7 @@ export function Header() {
                             </nav>
                         </SheetContent>
                     </Sheet>
-                    <Link href="/" className="flex items-center gap-2">
+                    <Link href="/home" className="flex items-center gap-2">
                         <MapPin className="h-6 w-6 text-malawi-red" />
                         <span className="text-xl font-bold tracking-tight">
               Malawi <span className="text-malawi-green">Shades</span>
@@ -56,7 +56,7 @@ export function Header() {
                 </div>
 
                 <nav className="hidden md:flex items-center gap-6">
-                    <Link href="/" className="nav-link text-sm font-medium">
+                    <Link href="/home" className="nav-link text-sm font-medium">
                         Home
                     </Link>
                     <Link href="/accommodations" className="nav-link text-sm font-medium">
